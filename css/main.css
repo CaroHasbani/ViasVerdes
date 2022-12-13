@@ -1247,6 +1247,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 @media only screen and (max-width: 600px) {
+    .client-list {
+        flex-direction: column;
+        flex-direction: row;
+    }
+    .img-client {
+        width: 150px;
+    }
     .section-header.has-bottom-sep {
         padding-bottom: 0;
     }
@@ -2294,7 +2301,19 @@ html.cl-loaded .home-content__main {
  * ## services list
  * ------------------------------------------------------------------- */
 .services-list {
-    margin-top: 6rem;
+    margin-block: 6rem;
+}
+
+.client-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img-client {
+    max-width: 189px;;
+    padding: 10px;
 }
 
 .services-list .service-item {
