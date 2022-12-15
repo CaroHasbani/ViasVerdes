@@ -665,3 +665,23 @@
  
  
  /*# sourceMappingURL=base.css.map */
+
+
+ @media screen and (min-width: 980px) {
+    .roww {
+        margin-left: 50px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+
+  .col {
+    flex-basis: 100%;
+  }
+
+  @media screen and (min-width: 980px) { 
+    .col {
+      flex: 1;
+    }
+  }
