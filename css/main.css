@@ -3868,3 +3868,26 @@ footer .row {
 
 
 /*# sourceMappingURL=main.css.map */
+
+/*-----*/
+.container-tipos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+ 
+  @media (max-width: 800px) {
+    .container-tipos{
+      flex-direction: column;
+    }
+  }
+
+ .section-tipo {
+      flex: 1; 
+  }
+
+  @media (max-width: 800px) {
+    .section-tipo{
+      margin-top: 10%;
+    }
+  }
