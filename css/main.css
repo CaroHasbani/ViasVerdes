@@ -1348,6 +1348,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     transform: translateY(-50%);
     z-index: 501;
 }
+.header-logo .site-logo img{
+    max-width: 200%;
+ }
 
 .header-logo a {
     display: block;
