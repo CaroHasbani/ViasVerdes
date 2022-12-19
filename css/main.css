@@ -3167,6 +3167,7 @@ html.cl-loaded .home-content__main {
     }
     .clients-testimonials .testimonials {
         margin: 0 2rem;
+        height: 300px;
     }
     .clients-testimonials .testimonials .slick-arrow {
         top: auto;
@@ -3201,7 +3202,11 @@ html.cl-loaded .home-content__main {
     }
 }
 
-
+@media only screen and (min-width: 800px) {
+    .clients-testimonials .testimonials {
+        height: 500px;
+    }
+}
 
 /* ===================================================================
  * # contact 
